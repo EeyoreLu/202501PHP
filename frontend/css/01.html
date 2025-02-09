@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        .div1{
+            width: 80px;
+            height: 80px;
+            background-color: green;
+        }
+    </style>
+    <link rel="stylesheet" href="01.css">
+    <!-- 通过分离结构和样式.使代码更清晰 -->
+    <!-- <link >注意: link 标签一定放在head中 -->
+</head>
+<body>
+    <h1 style="background-color: red;">学习CSS</h1>
+    <div class="div1">这是一个div标签</div>
+    <hr>
+    <p>欢迎来到 “查询和汇编编程语言”。 观看此视频后，您将能够： 比较高级和低级编程语言。 描述查询语言。 描述汇编语言。</p>
+    <p>这是另外一个P标签</p>
+    <div class="div2">这是class属性为div2的标签</div>
+    <hr>
+    <div class="div2">这是 第二个 class属性为div2的标签</div>
+    <hr>
+    <div id="div3">这是id属性为div3的标签</div>
+    <hr>
+    <div class="div3" id="div3">这是 同时有ID和class属性的一个div ,用来比较他们的优先级</div>
+    <br>
+    <div class="div4">
+        <div class="div5">
+            <p>这是 div4>div5> 的 P 标签 </p>
+        </div>
+        <p>这个是class属性为div4的一个标签</p>
+        <p>这个是class属性为div4的一个标签</p>
+    </div>
+    <hr>
+    <div class="div6">
+        <p class="p1">P1 这个就是P的全局样式</p>
+        <p>这个是 p1 紧邻兄弟 P 标签</p>
+        <p>这个是 第三个P 标签</p>
+        <p>这个是 第四个P 标签</p>
+    </div>
+    <!-- 同一页面id的属性是唯一的 ,class是可以多个的-->
+     <hr>
+     <p title="p2"></p>
+     <p title="p2"></p>
+</body>
+</html>
