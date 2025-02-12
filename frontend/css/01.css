@@ -109,3 +109,11 @@ button{
 button:hover{
     background-color: darkseagreen;
 }
+
+.p4{
+   color: rgb(255, 255, 255); 
+   background-color: darkslategray;
+}
+.div7{
+    background-image: url(../html/https://i.pinimg.com/736x/9c/b0/43/9cb043b56a4b73f66eb91d78fc20380f.jpg);
+}
