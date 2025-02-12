@@ -58,3 +58,28 @@ font-size: 30px;
 }
 /* 属性选择器 */
 /* 选择所有带有 title 属性的标签 */
+[title]{
+    color: green;
+    font-size: 32px;
+}
+/* 选择所有 type 属性值为“text”的标签 */
+input[type="text"]{
+    width: 600px;
+    height: 40px;
+    color: chartreuse;
+    font-size: 24px;
+
+}
+/* 伪类选择器 */
+/* 选择所有链接 */
+
+/* 未访问的链接 */
+a:link{
+    color: cornflowerblue;
+    font-size: 24px;
+}
+/* 已访问的链接 */
+a:visited{
+    color: #fc0022;
+    font-size: 24px;
+}
