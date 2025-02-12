@@ -70,7 +70,7 @@ input[type="text"]{
     font-size: 24px;
 
 }
-/* 伪类选择器 */
+/* 伪类选择器 :用于选择元素的特定状态*/
 /* 选择所有链接 */
 
 /* 未访问的链接 */
@@ -82,4 +82,30 @@ a:link{
 a:visited{
     color: #fc0022;
     font-size: 24px;
+}
+
+/* 鼠标悬停在连接上 */
+a:hover{
+    color: coral;
+    font-size: 16px;
+}
+
+/* 链接被选中.激活时 */
+a:active{
+    color: rgb(12, 221, 78);
+    font-size: 24px;
+}
+
+/* 用户交互伪类 focus  */
+input:focus{
+    background-color: blue;
+}
+
+/* :hover */
+button{
+    width: 300px;
+    height: 40px;
+}
+button:hover{
+    background-color: darkseagreen;
 }
