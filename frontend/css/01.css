@@ -117,3 +117,22 @@ button:hover{
 .div7{
     background-image: url(../html/https://i.pinimg.com/736x/9c/b0/43/9cb043b56a4b73f66eb91d78fc20380f.jpg);
 }
+.leve-1{
+    width: 400px;
+    height: 400px;
+    background-color: darkolivegreen;
+    margin: 10px;
+}
+.leve-2-1{
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+}
+.leve-2-2{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+body{
+    background-color: #d6d6d6;
+}
