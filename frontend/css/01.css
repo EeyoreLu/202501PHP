@@ -164,3 +164,19 @@ body{
 }
 /* absolute:绝对定位,相对于最近的已定位的父级元素.
 如果没有已定位的父元素,相对于浏览器的窗口 */
+.div11{
+    /* 固定定位,相对于浏览器窗口 */
+    position:fixed;
+    top:100px;/* 相对于浏览器窗口向下移动100px */
+    left: 800px;/* 相对于浏览器窗口向右移动800px */
+
+}
+.transitions{
+    width: 200px;
+    height: 40px;
+    background-color: darkcyan;
+    transition: background-color 2s ease;
+}
+.transitions:hover{
+    background-color: green;
+}
