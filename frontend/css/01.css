@@ -122,9 +122,11 @@ button:hover{
     width: 400px;
     height: 400px;
     background-color: darkolivegreen;
-    margin: 10px;
+    margin: 100px;
     padding: 10px;
 }
+/* padding&margin:如果只写两个值,第一个值为上下,第二个值为左右,
+写三个,第一个值为上,第二个值为左右,第三个值为下,四个值顺序是上右下左 */
 .leve-2-1{
     width: 200px;
     height: 200px;
@@ -138,3 +140,27 @@ button:hover{
 body{
     background-color: #d6d6d6;
 }
+.div9,.div10,.div11{
+    background-color: blueviolet;
+    background-color: blueviolet;
+    width: 120px;
+    height: 120px;
+}
+.div-position{
+    width: 800px;
+    height: 800px;
+    background-color:blanchedalmond;
+}
+.div9{
+    position:relative;
+    top: 400px;
+    left:60px;
+}
+/* relative:相对定位,相对父级 */
+.div10{
+    position:absolute;
+    top:120px;
+    left:40px;
+}
+/* absolute:绝对定位,相对于最近的已定位的父级元素.
+如果没有已定位的父元素,相对于浏览器的窗口 */
