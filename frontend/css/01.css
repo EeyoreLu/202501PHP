@@ -180,3 +180,32 @@ body{
 .transitions:hover{
     background-color: green;
 }
+@keyframes move{
+    0%{
+        transform: translateX(0);
+    }
+   25%{
+        transform: translateX(100px);
+    }
+   50%{
+        transform: translateX(200px);
+    }
+    75%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.animations{
+    width: 200px;
+    height: 40px;
+    background-color: darkcyan;
+    animation: move 2s infinite;
+}
+/* 媒体查询 */
+@media (max-width: 1000px; ){
+   body{
+    background-color: cadetblue;
+   }
+}
